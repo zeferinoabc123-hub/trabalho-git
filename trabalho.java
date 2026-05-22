@@ -24,5 +24,8 @@ public class trabalho {
             } catch (Exception e) {
                 media2 = 0.0;
             }
+
+            System.out.println("=== NOTA FINAL ===");
+            System.out.println((media1 + media2) / 2);
     }
 }
