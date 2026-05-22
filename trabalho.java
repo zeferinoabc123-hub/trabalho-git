@@ -12,13 +12,13 @@ public class trabalho {
             ================================
 
                  """);
-        System.out.print("Digite a nota do 1° bimestre");
+        System.out.print("Digite a nota do 1° bimestre\n>>");
             try {
                 media1 = entrada.nextDouble();
             } catch (Exception e) {
                 media1 = 0.0;
             }
-        System.out.println("\n Digite a nota do 2° bimestre");
+        System.out.println("\nDigite a nota do 2° bimestre\n>>");
         try {
                 media2 = entrada.nextDouble();
             } catch (Exception e) {
