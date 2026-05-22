@@ -14,7 +14,7 @@ public class trabalho {
                  """);
         System.out.print("Digite a nota do 1° bimestre\n>>");
             try {
-                media1 = entrada.nextDouble();
+                media1 = entrada.nextDouble();                                        //Dev A
             } catch (Exception e) {
                 media1 = 0.0;
             }
